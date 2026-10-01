@@ -220,12 +220,17 @@ body {
 
 .guess-row {
   display: flex;
+  align-items: stretch;
   gap: 0.5rem;
   margin-bottom: 0.65rem;
+  width: 100%;
+  min-width: 0;
 }
 
 .guess-row input {
-  flex: 1;
+  flex: 1 1 0;
+  min-width: 0;
+  width: auto;
   padding: 0.85rem 1rem;
   border-radius: 12px;
   border: 1px solid var(--border);
@@ -245,10 +250,13 @@ body {
   color: var(--muted);
 }
 
-.btn-guess-inline {
+/* More specific than .btn { width: 100% } so Guess stays in-row on narrow cards */
+.guess-row .btn-guess-inline {
   width: auto;
-  flex-shrink: 0;
-  padding: 0.85rem 1.1rem;
+  max-width: none;
+  flex: 0 0 auto;
+  padding: 0.85rem 1rem;
+  white-space: nowrap;
 }
 
 .action-row {

@@ -4,7 +4,7 @@ A daily shareable logo-guessing game. Same 5 logos for everyone on a given calen
 
 ## Play online
 
-Railway public URL will be added after first deploy.
+https://logo-blur-production.up.railway.app/
 
 Intended GitHub Pages URL (enable in repo Settings → Pages → Deploy from branch `main`, folder `/`):
 https://mtallentb.github.io/logo-blur/
@@ -76,7 +76,7 @@ Perfect day (all 5 with 0 sharpens) = **1000**.
 ```
 LogoBlur MM/DD  🟩🟩🟨🟥🟩  4/5 · 7 reveals
 🔥 Streak: 3
-https://logoblur.game
+https://logo-blur-production.up.railway.app/
 ```
 
 One-tap **Copy share card** copies that text to the clipboard.

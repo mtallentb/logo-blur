@@ -8,7 +8,7 @@ const MAX_POINTS_PER_ROUND = 200;
 const MAX_SHARPENS = 5;
 /** Blur radius (px) at each sharpen level: index = sharpens used */
 const BLUR_LEVELS = [42, 28, 18, 11, 6, 0];
-const SITE_URL = "https://logoblur.game"; // placeholder
+const SITE_URL = "https://logo-blur-production.up.railway.app/";
 const STORAGE_KEY = "logoblur_v1";
 
 const main = document.getElementById("main");

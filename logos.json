@@ -52,7 +52,7 @@
   {"id":"tmobile","name":"T-Mobile","aliases":["t mobile","tmobile","t-mobile us"],"color":"#E20074","svg":"logos/tmobile.svg"},
   {"id":"ikea","name":"IKEA","aliases":[],"color":"#0051BA"},
   {"id":"lego","name":"LEGO","aliases":["lego group"],"color":"#FFD700"},
-  {"id":"nasa","name":"NASA","aliases":["national aeronautics and space administration"],"color":"#0B3D91"},
+  {"id":"nasa","name":"NASA","aliases":["national aeronautics and space administration"],"color":"#0B3D91","svg":"logos/nasa.svg"},
   {"id":"fedex","name":"FedEx","aliases":["federal express","fed ex"],"color":"#4D148C"},
   {"id":"ups","name":"UPS","aliases":["united parcel service"],"color":"#351C15"},
   {"id":"visa","name":"Visa","aliases":[],"color":"#1A1F71"},
